@@ -1,0 +1,47 @@
+###########################
+# ignore generated binaries
+# but not the data folder
+###########################
+
+*/bin/*
+!*/bin/data/
+
+#########
+# general
+#########
+
+.idea/
+.DS_Store
+
+documentation/raw/
+gan/training_checkpoints
+gan/oImg
+gan/oDig
+gan/checkpoints
+gan/portrait_img
+gan/celeba_gan
+gan/datasets
+*/[Bb]uild/
+*/[Oo]bj/
+*.o
+*/[Dd]ebug*/
+*/[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+
+# Linux
+*~
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+
+# CMake
+cmake-build-*/
